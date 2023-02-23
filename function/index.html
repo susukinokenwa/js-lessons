@@ -1,1 +1,92 @@
-<script src="./lesson4.js"></script>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <div>
+
+            <div class="score1">
+                <button onclick="scoreReset()" class="resetScoreButton">reset score</button>
+                <h1 class="score"><span class="teamscore1">15</span> : <span class="teamscore2">16</span></h1>
+                <div class="buttonscore">
+                    <button onclick="start()">start</button>
+                    <button onclick="stop()">stop</button>
+                    <button onclick="reset()">reset</button>
+                </div>
+            </div>
+                
+           <div class="teams">
+
+                <div>
+                    <h2 class="team1">TEAM</h2>
+                    <p class="team11">0</p>
+                    <div class="score11">
+                        <button onclick="onePoint1()">+1</button>
+                        <button onclick="twoPoint1()">+2</button>
+                        <button onclick="threePoint1()">+3</button>
+                        <button onclick="minPoint1()">-1</button>
+                        <button onclick="reset1()">reset</button>
+                    </div>
+            
+                </div>
+               
+
+                <div>
+                        <h2 class="team2">TEAM</h2>
+
+                        <p class="team22">0</p>
+                        <div class="score22">
+                            <button onclick="onePoint2()">+1</button>
+                            <button onclick="twoPoint2()">+2</button>
+                            <button onclick="threePoint2()">+3</button>
+                            <button onclick="minPoint2()">-1</button>
+                            <button onclick="reset2()">reset</button>
+                        </div>
+                </div>    
+            
+               
+                <div>
+                    <h1 class="period">TIME</h1>
+                    <p class="period1"><span id="min">10</span>:<span id="sec">00</span></p>
+            
+                </div>
+                <div class="time">
+                    <h1>PERIOD</h1>
+                    <p  class="tim2">1</p>
+                   
+                       
+                </div> 
+                <div class="buttonperiod">
+                         <button onclick="addPeriod()">+1</button>
+                        <button onclick="clearperiod()">reset</button>
+                        <button onclick="minusPeriod()">-1</button>
+                    </div>
+            </div> 
+
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+<link rel="stylesheet" href="./score.css">
+    <script src="./scoreboeard.js"></script>
+</body>
+</html>
