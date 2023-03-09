@@ -1,0 +1,48 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    
+    ;
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+  
+}
+
+body{
+    background-color: black;
+}
+.div{
+    width: 300px;
+   position: absolute;
+    padding-left: 100px;
+    padding-top: 160px;
+    
+
+
+}
+.div2{  width: 0300px;
+    position: absolute;
+     padding-left: 100px;
+     padding-top: 7vh;
+
+}
+h2{
+    font-weight: 500;
+    font-size: 23px;
+    padding-top: 5vh;
+}
+h1{
+    font-size: 50px;
+}
+
+.img{
+    height: 100vh;
+    position: absolute;
+width: 65vw;
+    padding-left: 448px;
+}
+p{
+    padding-top: 5px;
+}
+
