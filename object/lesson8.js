@@ -1,4 +1,6 @@
 
+
+
 //Data types
 
 const  student = "Anya" //string
@@ -57,5 +59,28 @@ const kristina = {
         console.log("She laughed...")
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

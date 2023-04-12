@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    
+    
+}
+
+.body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url('./48424-City-CityscapeArknights-4k-Ultra-HD-Wallpaper.jpg');
+    color: white;
+
+    background-size: cover;
+    
+    
+    
+}
+
+
+/*<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">*/
+
+.title{
+    font-size: 100px;
+    line-height: 110px;
+    padding-top: 8vh;
+    margin-left: 5vw;
+    
+    width: fit-content;
+}
+.intro{
+    padding-left: 5vw;
+}
+.robotClasses{
+    margin-left: 5vw;
+    display: flex;
+    padding-top: 7vh;
+    
+}
+
+/*hover effects*/
+.fighterClass:hover{
+        background-color: rgba(84, 84, 84, 0.42);
+        transition-duration: 0.5s;
+        
+}
+.healerClass:hover{
+    background-color: rgba(84, 84, 84, 0.42);
+    transition-duration: 0.5s;
+    
+}
+.shooterClass:hover{
+    background-color: rgba(84, 84, 84, 0.42);
+    transition-duration: 0.5s;
+    
+}
+
+/*fighter.html*/
+
+.fighter{
+    color: white;
+    padding-bottom: 6vh;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.fighterClass{
+    width: 40vw;
+    padding: 5vh;
+    margin-right: 7vw;
+}
+.fighterP{
+    padding-top: 1vh;
+    font-weight: 200;
+    color: white;
+}
+
+
+
+/*heler.html*/
+.healer{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 6vh;
+}
+.healerClass{
+    width: 40vw;
+   padding: 5vh;
+    margin-right: 7vw;
+
+}
+.healerP{
+    padding-top: 1vh;
+    font-weight: 200;
+    color: white;
+}
+
+
+
+/*I changed to defenser!!.html*/
+.shooterClass{
+    width: 40vw;
+    padding: 5vh;
+    margin-right: 7vw;
+
+}
+.shooter{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 6vh;
+}
+.shooterP{
+    padding-top: 1vh;
+    font-weight: 200;
+    color: white;
+}
+.title2{
+    position: absolute;
+    padding-left: 7vw;
+    transform: rotate(90deg);
+    margin-top: -36vh;
+    margin-left: 87.5vw;
+    
+    
+}
+
+.intro{
+   
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
