@@ -4,23 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body class="body">
 
-    <div>
-        <div>
-            <h1>ATTACK BOT</h1>
-        </div>
+
+    <div class="fter">
+
     
-        <div class="attackInput">
-            <input type="text" id="attackName" placeholder="name">
-            <input type="text" id="attackType" placeholder="HP">
-            <input type="text" id="attackDamage" placeholder="damage">
-            <input type="text" id="attackWeapon" placeholder="weapon">
-            <input type="text" id="attackRange" placeholder="attack range (<=5 meters)">
-            <input type="text" id="attackImage" placeholder="image URL">
-            <button onclick="attackClick()">Click</button>
+        <div>
+            <div>
+                
+                <h1 class="AtkTitle">ATTACK BOT</h1>
+                <p class="titleAtk">ROBOT CREATION</p>
+                <p class="AtkSubtitle">create new bot</p>
+            </div>
+        
+            <div class="attackInput">
+                <input type="text" id="attackName" placeholder="name">
+                <input type="text" id="attackType" placeholder="HP">
+                <input type="text" id="attackDamage" placeholder="damage">
+                <input type="text" id="attackRange" placeholder="attack range (<=5 meters)">
+                <input type="text" id="attackImage" placeholder="image URL">
+                <button onclick="attackClick()">Click</button>
+            </div>
+
+
+        </div>
+
+        <div>
+            <h1 class="atkRobotLT">Attack Robot Line</h1>
+            
+            <div class="atkRobotLine">
+               
+
+            </div>
+            <div class="atkRobotLine1">
+
+            </div>
+
+
+
+
         </div>
     </div>
 
@@ -29,6 +57,6 @@
 
 
     <link rel="stylesheet" href="./robot.css">
-    <script src="./robot.js"></script>
+    <script src="./AtkRobot.js"></script>
 </body>
 </html>

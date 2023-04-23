@@ -12,11 +12,14 @@
     url('./48424-City-CityscapeArknights-4k-Ultra-HD-Wallpaper.jpg');
     color: white;
 
-    background-size: cover;
+    background-size: contain;
+    background-size: 100%;
     
     
     
 }
+
+
 
 
 /*<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,19 +44,36 @@
     
 }
 
+.title2{
+    position: absolute;
+    padding-left: 7vw;
+    transform: rotate(90deg);
+    margin-top: -36vh;
+    margin-left: 87.5vw;
+    
+    
+}
+
+.intro{
+   
+    margin-top: -10px;
+}
+
+
+
 /*hover effects*/
 .fighterClass:hover{
-        background-color: rgba(84, 84, 84, 0.42);
+        background-color: rgba(136, 136, 136, 0.42);
         transition-duration: 0.5s;
         
 }
 .healerClass:hover{
-    background-color: rgba(84, 84, 84, 0.42);
+    background-color: rgba(136, 136, 136, 0.42);
     transition-duration: 0.5s;
     
 }
 .shooterClass:hover{
-    background-color: rgba(84, 84, 84, 0.42);
+    background-color: rgba(136, 136, 136, 0.42);
     transition-duration: 0.5s;
     
 }
@@ -78,6 +98,36 @@
     color: white;
 }
 
+
+.fter{
+padding-left: 10vh;
+}
+.AtkTitle{
+    font-size: 100px;
+    line-height: 110px;
+    padding-top: 9vh;
+    
+    padding-bottom: 2vh;
+    
+}
+.AtkSubtitle{
+    padding-top: 1vh;
+    font-weight: 100;
+    color: white;
+}
+.atkRobotLT{
+    padding-top: 3vh;
+    font-weight: 400;
+}
+.titleAtk{
+    position: absolute;
+    padding-left: 14.5vw;
+    transform: rotate(90deg);
+    margin-top: -30vh;
+    margin-left: 77.95vw;
+    
+    
+}
 
 
 /*heler.html*/
@@ -119,21 +169,33 @@
     font-weight: 200;
     color: white;
 }
-.title2{
+
+.defRobotLT{
+    padding-top: 3vh;
+    font-weight: 400;
+}
+.titleDef{
     position: absolute;
-    padding-left: 7vw;
+    padding-left: 14.5vw;
     transform: rotate(90deg);
-    margin-top: -36vh;
-    margin-left: 87.5vw;
+    margin-top: -30vh;
+    margin-left: 77.95vw;
     
     
 }
-
-.intro{
-   
-    margin-top: -10px;
+.DefTitle{
+    font-size: 100px;
+    line-height: 110px;
+    padding-top: 9vh;
+    
+    padding-bottom: 2vh;
+    
 }
-
+.DefSubtitle{
+    padding-top: 1vh;
+    font-weight: 100;
+    color: white;
+}
 
 
 
