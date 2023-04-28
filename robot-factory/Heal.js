@@ -129,6 +129,13 @@ function healClick1(){
         `
     })
 
+    //convert data to string
+    let strHealData = JSON.stringify(filteredHeal1)
+
+    //save to local storage
+    localStorage.setItem("healBotArray", strHealData)
+
+
 }
 
 

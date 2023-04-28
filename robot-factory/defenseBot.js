@@ -131,4 +131,10 @@ function defenseClick1(){
 
     })
 
+     //convert data to string
+     let strDefData = JSON.stringify(filteredDfs1)
+
+     //save to local storage
+     localStorage.setItem("defenseBotArray", strDefData)
+
 }

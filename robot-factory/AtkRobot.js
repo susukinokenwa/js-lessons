@@ -154,9 +154,11 @@ function attackClick1(){
 
     // save to ls
     
-
-     
+    //convert data to string
+    let strAtkData = JSON.stringify(filteredAtk1)
  
+    //save to local storage
+    localStorage.setItem("atkBotArray", strAtkData)
 
     
 }
