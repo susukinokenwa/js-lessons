@@ -4,11 +4,13 @@
 
 //healing
 let healing = []
+
 //get data
 const gotHealData = localStorage.getItem("healBotArray")
 
 //convert back to JSON
 const cvtHealData = JSON.parse(gotHealData)
+healing = cvtHealData
 
 
 if(cvtHealData){
@@ -17,13 +19,18 @@ if(cvtHealData){
    
     console.log(element)
 
-    document.querySelector('.healRobotLine').innerHTML +=
-    `<h2>${element.name}</h2>
-    <p>HP: ${element.HP}</p>
-    <p>How much HP it heals: ${element.damage}</p>
-    <p>attack range: ${element.range}</p> 
-    <p>image: ${element.image}</p>
+    document.querySelector('.healRobotLine1').innerHTML +=
+    
+    ` <img class="AKimage" src= '${element.image}'/>
+    <div class="atkkkk">
+    <h2 class="atkttt1">${element.name}</h2>
+    <p class="atkkkk2">___________</p>
+    <p class="atkkkk3">HP: ${element.HP}</p>
+    <p class="atkkkk3">damage: ${element.damage}</p>
+    <p class="atkkkk3">attack range: ${element.range}</p> 
+    
     <br>
+    </div>
     `
 })
 
@@ -72,16 +79,57 @@ let healBot = {
     console.log(element)
     
     document.querySelector('.healRobotLine1').innerHTML +=
-    `<h2>${element.name}</h2>
-    <p>HP: ${element.HP}</p>
-    <p>HP it heals: ${element.damage}</p>
-    <p>heal range: ${element.range}</p> 
-    <p>image: ${element.image}</p>
-    <br>
-    `
+    ` <img class="AKimage" src= '${element.image}'/>
+        <div class="atkkkk">
+        <h2 class="atkttt1">${element.name}</h2>
+        <p class="atkkkk2">___________</p>
+        <p class="atkkkk3">HP: ${element.HP}</p>
+        <p class="atkkkk3">damage: ${element.damage}</p>
+        <p class="atkkkk3">attack range: ${element.range}</p> 
+        
+        <br>
+        </div>
+        `
 })
 }
 
+function healClick1(){
+    //get value from form
+    const clrHealBot = document.querySelector(`.healClear`).value
+
+    //filter out robots
+    const filteredHeal1 = healing.filter(function(element){
+        return element.name !== clrHealBot
+
+    })
+
+    //update healing
+    healing = filteredHeal1
+
+    //clear the screen
+    document.querySelector(`.healRobotLine1`).innerHTML = ''
+
+
+
+    //update the screen
+    filteredHeal1.forEach(function(element){
+        
+        document.querySelector(`.healRobotLine`).innerHTML +=
+        `
+        <img class="AKimage" src= '${element.image}'/>
+            <div class="atkkkk">
+            <h2 class="atkttt1">${element.name}</h2>
+            <p class="atkkkk2">___________</p>
+            <p class="atkkkk3">HP: ${element.HP}</p>
+            <p class="atkkkk3">damage: ${element.damage}</p>
+            <p class="atkkkk3">attack range: ${element.range}</p> 
+            
+            <br>
+        </div>
+        `
+    })
+
+}
 
 
 

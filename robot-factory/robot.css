@@ -31,7 +31,7 @@
     line-height: 110px;
     padding-top: 8vh;
     margin-left: 5vw;
-    
+   
     width: fit-content;
 }
 .intro{
@@ -41,6 +41,7 @@
     margin-left: 5vw;
     display: flex;
     padding-top: 7vh;
+   
     
 }
 
@@ -50,6 +51,7 @@
     transform: rotate(90deg);
     margin-top: -36vh;
     margin-left: 87.5vw;
+   
     
     
 }
@@ -57,6 +59,7 @@
 .intro{
    
     margin-top: -10px;
+   
 }
 
 
@@ -86,21 +89,25 @@
     font-size: 20px;
     font-weight: 300;
 
+
 }
 .fighterClass{
     width: 40vw;
     padding: 5vh;
     margin-right: 7vw;
+    
 }
 .fighterP{
     padding-top: 1vh;
     font-weight: 200;
     color: white;
+ 
 }
 
 
 .fter{
 padding-left: 10vh;
+
 }
 .AtkTitle{
     font-size: 100px;
@@ -114,10 +121,12 @@ padding-left: 10vh;
     padding-top: 1vh;
     font-weight: 100;
     color: white;
+
 }
 .atkRobotLT{
     padding-top: 3vh;
     font-weight: 400;
+  
 }
 .titleAtk{
     position: absolute;
@@ -127,6 +136,36 @@ padding-left: 10vh;
     margin-left: 77.95vw;
     
     
+    
+
+}
+
+.AKimage{
+    width: 40vw;
+}
+.atkRobotLine1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.atkRobotLine{
+    display: flex;
+    flex-wrap: wrap;
+}
+.atkkkk{
+  
+    padding-top: 20vh;
+}
+.atkttt1{
+    font-size: 50px;
+    
+}
+.atkkkk2{
+    font-weight: 200;
+    font-size: 40px;
+    
+}
+.atkkkk3{
+    font-size: 20px;
 }
 
 
@@ -147,6 +186,11 @@ padding-left: 10vh;
     padding-top: 1vh;
     font-weight: 200;
     color: white;
+}
+.healRobotLine1{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 
@@ -196,7 +240,11 @@ padding-left: 10vh;
     font-weight: 100;
     color: white;
 }
+.defRobotLine1{
 
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 

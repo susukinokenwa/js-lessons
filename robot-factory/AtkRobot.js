@@ -9,25 +9,40 @@ const gotAtkData = localStorage.getItem("atkBotArray")
 
 //convert back to JSON
 const cvtAtkData = JSON.parse(gotAtkData)
-
+attacking = cvtAtkData
 
 console.log(gotAtkData)
 
 if(cvtAtkData){
-        
+        document.querySelector('.atkRobotLine1').innerHTML = ""
         cvtAtkData.forEach(function(element){
 
         console.log(element)
         
-        document.querySelector('.atkRobotLine').innerHTML +=
-        `<h2>${element.name}</h2>
-        <p>HP: ${element.HP}</p>
-        <p>damage: ${element.damage}</p>
-        <p>attack range: ${element.range}</p> 
-        <p>image: ${element.image}</p>
+        document.querySelector('.atkRobotLine1').innerHTML +=
+    
+        ` <img class="AKimage" src= '${element.image}'/>
+        <div class="atkkkk">
+        <h2 class="atkttt1">${element.name}</h2>
+        <p class="atkkkk2">___________</p>
+        <p class="atkkkk3">HP: ${element.HP}</p>
+        <p class="atkkkk3">damage: ${element.damage}</p>
+        <p class="atkkkk3">attack range: ${element.range}</p> 
+        
         <br>
+        </div>
         `
     })
+
+     
+
+     //convert data to string
+     let strAtkData = JSON.stringify(cvtAtkData)
+ 
+     //save to local storage
+     localStorage.setItem("atkBotArray", strAtkData)
+
+    // attacking.push(cvtAtkData)
 }
     
 
@@ -72,15 +87,78 @@ function attackClick(){
     console.log(element)
     
     document.querySelector('.atkRobotLine1').innerHTML +=
-    `<h2>${element.name}</h2>
-    <p>HP: ${element.HP}</p>
-    <p>damage: ${element.damage}</p>
-    <p>attack range: ${element.range}</p> 
-    <p>image: ${element.image}</p>
-    <br>
-    `
+
+    ` <img class="AKimage" src= '${element.image}'/>
+        <div class="atkkkk">
+        <h2 class="atkttt1">${element.name}</h2>
+        <p class="atkkkk2">___________</p>
+        <p class="atkkkk3">HP: ${element.HP}</p>
+        <p class="atkkkk3">damage: ${element.damage}</p>
+        <p class="atkkkk3">attack range: ${element.range}</p> 
+        
+        <br>
+        </div>
+        `
 })
 
+}
+
+
+
+
+
+function attackClick1(){
+    // get value from form
+    document.querySelector('.atkRobotLine1').innerHTML = ""
+    const clrAtkBot = document.querySelector(`.atkClear`).value
+
+    console.log(`user typed`,clrAtkBot)
+
+
+    // filter out robots
+    const filteredAtk1 = attacking.filter(function(robot){
+        // console.log(`This is attack robot: `, robot)
+        return robot.name !== clrAtkBot
+    })
+
+    console.log('filtered attack robots:', filteredAtk1)
+    //document.querySelector(``).innerHTML  
+    
+
+    // update attacking
+    attacking = filteredAtk1
+    
+
+    // clear the screen
+    document.querySelector('.atkRobotLine1').innerHTML = ''
+
+    // update the screen
+    filteredAtk1.forEach(function(element){
+
+        console.log('forEach for filteredAtk1:', element)
+        
+        document.querySelector('.atkRobotLine1').innerHTML +=
+        `
+        <img class="AKimage" src= '${element.image}'/>
+            <div class="atkkkk">
+            <h2 class="atkttt1">${element.name}</h2>
+            <p class="atkkkk2">___________</p>
+            <p class="atkkkk3">HP: ${element.HP}</p>
+            <p class="atkkkk3">damage: ${element.damage}</p>
+            <p class="atkkkk3">attack range: ${element.range}</p> 
+            
+            <br>
+        </div>
+        `
+    })
+
+    // save to ls
+    
+
+     
+ 
+
+    
 }
 
 
