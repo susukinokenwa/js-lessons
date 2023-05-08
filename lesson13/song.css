@@ -1,0 +1,51 @@
+
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.song2{
+
+    display: flex;
+    padding-left: 10vh;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+}
+
+.song21{
+    width: 400px;
+}
+
+h1{
+    padding-left: 100px;
+   
+    padding-top: 100px;
+}
+.song22{
+    display: block;
+}
+.song222{
+    color: black;
+    margin-left: 100px;
+}
+
+.song1{
+    display: flex;
+    padding-left: 10vh;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+}
+
+.song3{
+    display: flex;
+    padding-left: 10vh;
+    padding-top: 10vh;
+    flex-wrap: wrap;
+    padding-bottom: 10vh;
+}

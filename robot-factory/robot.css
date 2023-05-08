@@ -4,11 +4,11 @@
     font-family: 'Nunito Sans', sans-serif;
     
     
-    
+
 }
 
 .body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.001), rgba(0, 0, 0, 0.001)),
     url('./48424-City-CityscapeArknights-4k-Ultra-HD-Wallpaper.jpg');
     color: white;
 
