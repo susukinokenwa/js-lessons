@@ -33,6 +33,16 @@ h1{
 .song222{
     color: black;
     margin-left: 100px;
+    border-radius: 10%;
+    background-color: white;
+    padding: 10px;
+    border: 0;
+}
+
+
+.song222:hover{
+    background-color: rgb(140, 140, 140);
+    transition-duration: 0.5s;
 }
 
 .song1{
