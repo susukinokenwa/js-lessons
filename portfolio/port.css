@@ -4,7 +4,122 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html, body{
+    width: 100%;
 
+}
+.nav div{
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+   text-align: right;
+    margin:  5px 0;
+    
+    border-radius:  250px; ;
+}
+.wrapper{
+    width: 100%;
+}
+.nav{
+    width: 30px;
+    display: block;
+    margin:1em 0 0 1em;
+   transform: rotate(90deg);
+    margin-left: -125px;
+    padding-right: 10px;
+    
+}
+
+.one{
+    width: 25px;
+    
+}
+
+.two{
+    width: 20px;
+}
+.three
+{
+    width: 30px;
+}
+
+
+.twitter{
+    width: 35px;
+    margin-top: -130px;
+    padding-left: 8vw;
+    position: absolute;
+}
+
+
+
+
+
+
+.menu2{
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    font-weight: 600;
+    padding-right: 100px;
+}
+.menu3{
+    margin-right: 40px;
+    font-size: 17px;
+    justify-content: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+
+}
+.menu3:hover{
+    background-color: rgba(184, 184, 184, 0.566);
+    transition-duration: 0.5s;
+    
+    border-radius: 5%;
+ 
+}
+
+
+
+.menu4{
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-weight: 600;
+    
+    padding-left: 55px;
+}
+.menu5{
+   color: rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   text-align: center;
+  
+  
+}
+
+.menu
+{display: flex;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif;
+height: 70px;
+margin-top: -28vh;
+color: rgb(0, 0, 0);
+margin-left: 95.5vw;
+
+align-items: center;
+transform: rotate(90deg);
+
+
+}
 
 body{
     height: 1008vh;
@@ -14,20 +129,31 @@ body{
     color: white;
     background-size: cover;
     height: 50vh;
-    padding-left: 8vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('https://pbs.twimg.com/media/FvLAc6xaIAA_2sJ?format=jpg&name=4096x4096');
+    width: 92vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('https://pbs.twimg.com/media/FvkrDwjagAYUYl0?format=jpg&name=4096x4096');
     padding-top: 50vh;
     
     
 }
 .tt1{
-    margin-top: -20vh;
-    font-weight: 400;
-    font-size: 100px;
+    padding-bottom: 35vh;
+    padding-top: 13vh;
+    margin-top: -57vh;
+    font-weight: 300;
+    font-size: 150px;
+    padding-left: 8vw;
+    color: #c0d4e0;
 }
 
 .tt2{
-    font-size: 70px;
-    font-weight: 500;
+    font-size: 75px;
+    font-weight: 700;
+    padding-left: 8vw;
 }
+.tt3{
+    padding-left: 8vw;
+    padding-top: 2vh;
+    font-size: 20px;
+}
+

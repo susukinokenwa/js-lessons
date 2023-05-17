@@ -1,0 +1,56 @@
+.img1{
+    width: 500px;
+    
+    animation: movearound;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+@keyframes movearound{
+    0%{
+        transform: rotate3d(1, 2, 3, 10deg);
+    }
+    10%{
+     transform: translate3d(12px, 50%, 3em);
+    }
+    20%{
+        transform: scale(2, 0.5);
+    }
+    30%{
+        transform: scaleX(7);;
+    }
+    50%{
+        transform: skewX(300deg);
+    }
+    70%{
+        transform: translateX(6em);
+    }
+    80%{
+        transform: translateY(500px
+        );
+    }
+    100%{
+        transform: translateX(1000px)  ;
+    }
+}
+
+.img2{
+    width: 500px;
+    
+    animation: movewd;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes movewd{
+    from{
+        transform: translateX(1000px) 
+    }
+    to{
+        transform: translateY(500px
+        );
+    }
+}
