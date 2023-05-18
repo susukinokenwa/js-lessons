@@ -61,7 +61,7 @@ icon2.onclick = function(){
     song3.play()
     song1.pause();
     song2.pause();
-    document.querySelector(`.wk12`).innerHTML = `Astro - Diwas Malla`
+    document.querySelector(`.wk12`).innerHTML = `Rockstar - Diwas Malla`
 }
 next2.onclick = function(){
 
