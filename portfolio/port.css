@@ -14,7 +14,7 @@ html, body{
    text-align: right;
     margin:  5px 0;
     
-    border-radius:  250px; ;
+
 }
 .wrapper{
     width: 100%;
@@ -26,6 +26,7 @@ html, body{
    transform: rotate(90deg);
     margin-left: -125px;
     padding-right: 10px;
+    margin-left: -68vh ;
     
 }
 
@@ -41,6 +42,7 @@ html, body{
 {
     width: 30px;
 }
+
 
 
 .twitter{
@@ -122,7 +124,7 @@ transform: rotate(90deg);
 }
 
 body{
-    height: 1008vh;
+   background-color: white  ;
  
 }
 .title{
@@ -144,6 +146,21 @@ body{
     font-size: 150px;
     padding-left: 8vw;
     color: #c0d4e0;
+    display: flex;
+}
+.tt12{
+    font-size: 10px;
+    padding-bottom: 200px;
+    display: flex;
+    margin-top: -21.5vh;
+    font-size: 500;
+
+
+}
+.ttt1{
+    color: #c0d4e0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .tt2{
@@ -151,9 +168,381 @@ body{
     font-weight: 700;
     padding-left: 8vw;
 }
+
 .tt3{
     padding-left: 8vw;
     padding-top: 2vh;
     font-size: 20px;
 }
+.intro{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 40vh;
+    flex-wrap: wrap;
+   
+}
+.intro1{
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.intro2{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: flex-start;
+    font-weight: 300;
+}
+.intro21{
+    font-style: italic;
+    font-weight: 700;
+}
 
+#about{
+margin-top: 19vh;
+    height: 80vh;
+    padding: 5.5vw;
+   
+}
+
+
+.img1{ 
+    height: 50vh;
+    width: 40vw;
+   
+    object-fit: cover;
+
+}
+.img2{
+    height: 50vh;
+    width: 20vw;
+    position: absolute;
+    margin-left: -5vw;
+    margin-top: 27.5vh;
+    object-fit: cover;
+    padding-bottom: 10vh;
+}
+
+#play{
+    
+    height: 40px;
+    display: flex;
+    margin-top: -23.2vh;
+}
+#next
+{
+    
+    height: 43px;
+    display: flex;
+    margin-top: -23.3vh;
+}
+
+.about1{
+    color: #1b8abf;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -27vh;
+    flex-wrap: wrap;
+}
+
+.ab1{
+    padding-bottom: 35vh;
+    padding-top: 13vh;
+    margin-top: -56.55vh;
+    font-weight: 300;
+    font-size: 150px;
+    padding-left: 8vw;
+    color: #1b8abf;
+    display: flex;
+}
+#play1{
+    
+    height: 40px;
+    display: flex;
+    margin-top: -23.2vh;
+}
+#next1
+{
+    
+    height: 43px;
+    display: flex;
+    margin-top: -23.3vh;
+}
+.abt1{
+    text-align: right;
+    font-size: 80px;
+    margin-top: -30vh;
+}
+.abt2{
+    text-align: right;
+    padding-top: 3vh;
+
+}
+.abt12{
+
+    
+        font-size: 10px;
+        padding-bottom: 200px;
+        display: flex;
+        margin-top: -21.5vh;
+        font-size: 500;
+    
+    
+    
+}
+.abt11{
+
+    margin-top: -15vh;
+}
+
+
+.works1{
+    
+    color: #556457;
+    display: flex;
+    justify-content: flex-start;
+   
+    flex-wrap: wrap;
+    
+}
+
+.works2{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://pbs.twimg.com/media/Fja70glaUAAvALK?format=jpg&name=4096x4096');
+    height: 100vh;
+    
+    
+    background-position: 100%;
+    
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-color: black;
+ 
+    
+    
+
+}
+.wktt1{
+    color: white;
+    margin-top: -90vh;
+    padding-left: 5.5vw;
+}
+.wk1{
+    
+    
+        font-weight: 300;
+        font-size: 150px;
+        margin-top: -22vh;
+        color: #abb4bb;
+        display: flex;
+    
+}
+.wk12{
+    font-size: 10px;
+       padding-top: 1px;
+        display: flex;
+        color: #abb4bb;
+        font-size: 500;
+    
+    
+}
+#play2{
+    
+    height: 40px;
+    display: flex;
+    margin-top: -1.5vh;
+   
+}
+#next2
+{
+    
+    height: 43px;
+    display: flex;  
+    margin-top: -1.5vh;
+    
+}
+.wkt1{
+    font-size: 100px;
+    padding-left: 1vw;
+
+
+}
+.wkt2{
+    padding-left: 0vw;
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    display: flex;
+    
+
+
+
+}
+.wkt3{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30vh;
+
+}
+
+.wkt4{
+    display: flex;
+    
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 15px ;
+    color: black;
+    padding: 1vh;
+    width: 10vh;
+    
+
+
+}
+.wkt4:hover{
+    background-color: rgb(197, 197, 197);
+    transition-duration: 0.5s;
+}
+
+.wkt5{
+    display: flex;
+    
+    
+    margin-top: 15px ;
+    color: rgb(255, 255, 255);
+    padding: 1vh;
+    width: 20vw;
+    
+
+
+}
+#web{
+   display: flex;
+    height: 50vh;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    justify-content: center;
+   align-items: center;
+}
+.web1{
+width: 90px;
+text-align: center;
+display: flex;
+justify-content: center;
+padding-right: 50px;
+
+
+}
+
+.web2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.web3{
+    color: white;
+    font-size: 20px;
+}
+.web4{
+
+    padding: 30px;
+}
+.web5{
+    font-weight: 200;
+}
+.web4:hover{
+
+    background-color: rgba(189, 189, 189, 0.3);
+    transition-duration: 0.5s;
+}
+
+#photo{
+    padding: 5.5vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo1{
+    font-size: 150px;
+}
+.photo2{
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+
+.pic1{
+    height: 55vh;
+    width: 50vw;
+    object-fit: cover;
+    object-position: top;
+    margin-right:30px ;
+    margin-bottom: 30px;
+    
+
+
+}
+.pic2{
+    height: 30vw;
+    margin-bottom: 30px;
+    
+}
+.pic3{
+    height: 30vw;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.pic4{
+    height: 80vh;
+    width: 44vw;
+    justify-content: flex-end;
+    object-fit: cover;
+  
+    display: flex;
+}
+.pic5{
+    height: 30vw;
+    width: 50vw;
+    margin-top: 30px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+.pic6{
+    height: 90vh;
+    margin-bottom: 30px;
+}
+.pic7{
+height: 100vh;
+width: 34vw;
+object-fit: cover;
+margin-top: 70px;
+}
+.pic8{
+    height: 80vh;
+    margin-right: 30px;
+    margin-bottom: 30px;
+   
+}
+
+#contact{
+
+    background-color: #c7c7c7;
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 40vh;
+    flex-wrap: wrap;
+}
+.contact2{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: flex-start;
+    font-weight: 300;
+    color: black;
+}
